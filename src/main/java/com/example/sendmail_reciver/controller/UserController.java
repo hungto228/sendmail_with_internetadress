@@ -4,14 +4,11 @@ import com.example.sendmail_reciver.model.Users;
 import com.example.sendmail_reciver.reponsitory.UsersRepository;
 import org.apache.velocity.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.lang.module.ResolutionException;
 
 @RestController
 public class UserController {
